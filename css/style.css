@@ -1,0 +1,131 @@
+/* ===============================
+   GLOBAL RESET
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   BODY STYLING
+================================ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #333;
+}
+
+/* ===============================
+   HEADER
+================================ */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+/* ===============================
+   COMMON BOX
+================================ */
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===============================
+   TEXT STYLING
+================================ */
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ===============================
+   BUTTON STYLING
+================================ */
+.primary-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.primary-btn:hover {
+    background-color: #218838;
+}
+
+/* ===============================
+   FLEXBOX
+================================ */
+.flex-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.flex-item {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* ===============================
+   IMAGE RESPONSIVE
+================================ */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* ===============================
+   FORM STYLING
+================================ */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
